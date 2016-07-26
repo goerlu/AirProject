@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="AirProjectV2">
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="AirProjectV2"/>
         <property name="java-output-path" value="/AirProjectV2/WebRoot/WEB-INF/classes"/>
+=======
+    <wb-module deploy-name="AirProjectTestV1">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="AirProjectTestV1"/>
+        <property name="java-output-path" value="/AirProjectTestV1/WebRoot/WEB-INF/classes"/>
+>>>>>>> branch 'master' of https://github.com/goerlu/AirProject.git
     </wb-module>
 </project-modules>

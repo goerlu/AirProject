@@ -15,6 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
+<<<<<<< HEAD
 	
 	<link rel="stylesheet" href="./css/pagination.css" />
 	<style type="text/css">
@@ -71,5 +72,13 @@ $("#Pagination").pagination(200, {
 	</script>
 </div>
 <input type="button" value="点击" onclick="clickevent()"/>
+=======
+  </head>
+  
+  <body>
+    This is my JSP page. <br>
+    <%-- <jsp:include page="Include.jsp"></jsp:include> --%>
+    <%@include file="Include.jsp" %>
+>>>>>>> branch 'master' of https://github.com/goerlu/AirProject.git
   </body>
 </html>
