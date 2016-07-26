@@ -1,0 +1,88 @@
+[Version]
+Signature = "$Chicago$"
+AdvancedINF=2.5
+
+[DefaultInstall]
+CopyFiles=files, driverFiles
+RegisterOCXs=RegisterFiles
+
+[DefaultUninstall]
+cleanup=1
+Delfiles=files
+UnRegisterOCXs=RegisterFiles
+
+[SourceDisksNames]
+1 = NetVideoActiveX_V23.cab,NetVideoActiveX_V23.cab,0
+
+[SourceDisksFiles]
+HCNetSDK.dll = 1
+PlayCtrl.dll = 1
+SystemTransform.dll = 1
+StreamTransClient.dll = 1
+NetVideoActiveX23.inf = 1
+NetVideoActiveX23.ocx = 1
+ShowRemConfig.dll = 1
+RemConfigRes_CHI.dll = 1
+RemConfigRes_ENG.dll = 1
+AudioIntercom.dll = 1
+OpenAL32.dll = 1
+
+[RegisterFiles]
+%11%\NetVideoActiveX23\NetVideoActiveX23.ocx
+
+[NetVideoActiveX23.ocx]
+file-win32-x86=thiscab
+RegisterServer=yes
+clsid={CAFCF48D-8E34-4490-8154-026191D73924}
+FileVersion=2,3,23,7
+
+[HCNetSDK.dll]
+file-win32-x86=thiscab
+FileVersion=4,2,5,6
+
+[PlayCtrl.dll]
+file-win32-x86=thiscab
+FileVersion=6,4,1,8
+
+[SystemTransform.dll]
+file-win32-x86=thiscab
+FileVersion=2,3,0,5
+
+[StreamTransClient.dll]
+file-win32-x86=thiscab
+FileVersion=1,1,2,3
+
+[ShowRemConfig.dll]
+file-win32-x86=thiscab
+FileVersion=2,0,26,6
+
+[RemConfigRes_CHI.dll]
+file-win32-x86=thiscab
+FileVersion=2,0,23,0
+
+[RemConfigRes_ENG.dll]
+file-win32-x86=thiscab
+FileVersion=2,0,23,0
+
+[AudioIntercom.dll]
+file-win32-x86=thiscab
+FileVersion=1,1,0,4
+
+[OpenAL32.dll]
+file-win32-x86=thiscab
+FileVersion=
+
+[DestinationDirs]
+files=11, NetVideoActiveX23
+
+[files]
+HCNetSDK.dll
+PlayCtrl.dll
+SystemTransform.dll
+StreamTransClient.dll
+NetVideoActiveX23.ocx
+ShowRemConfig.dll
+RemConfigRes_CHI.dll
+RemConfigRes_ENG.dll
+AudioIntercom.dll
+OpenAL32.dll
